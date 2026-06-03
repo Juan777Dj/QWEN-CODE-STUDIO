@@ -1,0 +1,31 @@
+:root {
+  --bg-primary: #1e1e1e;
+  --bg-secondary: #252526;
+  --bg-tertiary: #333333;
+  --text-primary: #cccccc;
+  --text-secondary: #9cdcfe;
+  --accent: #007acc;
+  --accent-hover: #005f9e;
+  --border: #3e3e42;
+  --success: #4ec9b0;
+  --warning: #ce9178;
+  --error: #f48771;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
